@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'com.example'
+version = '1.0.0'
+
+// Java版本设置
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+// 仓库配置
+repositories {
+    mavenCentral()
+}
+
+// 依赖配置
+dependencies {
+    // JUnit测试依赖
+    testImplementation 'junit:junit:4.13.2'
+}
+
+// 构建配置
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+// 测试配置
+test {
+    useJUnit()
+    testLogging {
+        events 'STARTED', 'PASSED', 'FAILED', 'SKIPPED'
+    }
+}
+
+// 应用程序配置（如果需要主类）
+// mainClassName = 'com.example.Main'

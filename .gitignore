@@ -1,0 +1,57 @@
+# Compilation output
+target/
+build/
+
+# IDE files
+.idea/
+*.iml
+*.classpath
+*.project
+*.settings/
+
+# Gradle files
+.gradle/
+gradle.properties
+
+# Maven files
+.m2/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Testing
+.coverage
+.coverage.*
+nosetests.xml
+
+# Documentation
+_site/
+*.html
+*.pdf
+
+# Package files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
