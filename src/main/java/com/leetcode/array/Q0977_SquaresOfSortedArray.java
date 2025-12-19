@@ -1,4 +1,4 @@
-package com.leetcode.array.q0977;
+package com.leetcode.array;
 
 import java.util.Arrays;
 
@@ -25,7 +25,7 @@ import java.util.Arrays;
  * 时间复杂度：O(n)
  * 空间复杂度：O(1) - 不考虑输出数组
  */
-public class SquaresOfSortedArray977 {
+public class Q0977_SquaresOfSortedArray {
 
     /**
      * 方法1：直接平方后排序

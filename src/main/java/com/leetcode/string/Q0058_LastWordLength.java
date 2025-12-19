@@ -1,4 +1,4 @@
-package com.leetcode.string.q0058;
+package com.leetcode.string;
 
 /**
  * LeetCode 58. 最后一个单词的长度
@@ -31,7 +31,7 @@ package com.leetcode.string.q0058;
  * 时间复杂度：O(n)
  * 空间复杂度：O(1)
  */
-public class LastWordLength58 {
+public class Q0058_LastWordLength {
 
     /**
      * 方法1：从后往前遍历（推荐）

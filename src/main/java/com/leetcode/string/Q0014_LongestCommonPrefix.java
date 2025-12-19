@@ -1,4 +1,4 @@
-package com.leetcode.string.q0014;
+package com.leetcode.string;
 
 /**
  * LeetCode 14. 最长公共前缀
@@ -24,7 +24,7 @@ package com.leetcode.string.q0014;
  * 时间复杂度：O(mn) - m为字符串平均长度，n为字符串数量
  * 空间复杂度：O(1)
  */
-public class LongestCommonPrefix14 {
+public class Q0014_LongestCommonPrefix {
 
     /**
      * 方法1：横向扫描

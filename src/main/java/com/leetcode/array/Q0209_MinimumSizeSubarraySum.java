@@ -1,4 +1,4 @@
-package com.leetcode.array.q0209;
+package com.leetcode.array;
 
 /**
  * LeetCode 209. 长度最小的子数组
@@ -25,7 +25,7 @@ package com.leetcode.array.q0209;
  * 1. 暴力解法：双重循环，计算所有可能的子数组和，记录最小长度 - 时间复杂度O(n²)
  * 2. 滑动窗口（双指针）：使用两个指针维护一个窗口，当窗口和大于等于target时，移动左指针 - 时间复杂度O(n)
  */
-public class MinimumSizeSubarraySum209 {
+public class Q0209_MinimumSizeSubarraySum {
 
     /**
      * 方法1：暴力解法

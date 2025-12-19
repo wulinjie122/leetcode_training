@@ -1,14 +1,14 @@
-package com.leetcode.array.q0209;
+package com.leetcode.array;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 /**
- * 测试类：MinimumSizeSubarraySum209的测试用例
+ * 测试类：Q0209_MinimumSizeSubarraySum的测试用例
  */
-public class MinimumSizeSubarraySum209Test {
+public class Q0209_MinimumSizeSubarraySumTest {
 
-    private final MinimumSizeSubarraySum209 solution = new MinimumSizeSubarraySum209();
+    private final Q0209_MinimumSizeSubarraySum solution = new Q0209_MinimumSizeSubarraySum();
 
     /**
      * 基本测试用例

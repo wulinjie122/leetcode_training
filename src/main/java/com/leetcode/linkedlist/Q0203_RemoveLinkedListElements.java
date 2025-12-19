@@ -1,4 +1,6 @@
-package com.leetcode.linkedlist.q0203;
+package com.leetcode.linkedlist;
+
+import com.leetcode.utils.ListNode;
 
 /**
  * LeetCode 203. 移除链表元素
@@ -23,7 +25,7 @@ package com.leetcode.linkedlist.q0203;
  * 1. 递归解法：递归地处理链表中的每个节点
  * 2. 迭代解法：使用指针遍历链表，跳过值为val的节点
  */
-public class RemoveLinkedListElements203 {
+public class Q0203_RemoveLinkedListElements {
 
     /**
      * 方法1：递归解法

@@ -1,4 +1,4 @@
-package com.leetcode.array.q0026;
+package com.leetcode.array;
 
 /**
  * LeetCode 26. 删除有序数组中的重复项
@@ -19,7 +19,7 @@ package com.leetcode.array.q0026;
  * 时间复杂度：O(n)
  * 空间复杂度：O(1)
  */
-public class RemoveDuplicates26 {
+public class Q0026_RemoveDuplicates {
 
     public int removeDuplicates(int[] nums) {
         // 处理边界情况：如果数组为空，则直接返回0

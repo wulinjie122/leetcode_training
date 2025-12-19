@@ -1,16 +1,16 @@
-package com.leetcode.string.q0014;
+package com.leetcode.string;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * LongestCommonPrefix14 的测试类
+ * Q0014_LongestCommonPrefix 的测试类
  */
-public class LongestCommonPrefix14Test {
+public class Q0014_LongestCommonPrefixTest {
 
     @Test
     public void testLongestCommonPrefix_基本测试用例() {
-        LongestCommonPrefix14 solution = new LongestCommonPrefix14();
+        Q0014_LongestCommonPrefix solution = new Q0014_LongestCommonPrefix();
         
         // 测试用例1：有公共前缀
         String[] strs1 = {"flower", "flow", "flight"};
@@ -20,7 +20,7 @@ public class LongestCommonPrefix14Test {
 
     @Test
     public void testLongestCommonPrefix_无公共前缀() {
-        LongestCommonPrefix14 solution = new LongestCommonPrefix14();
+        Q0014_LongestCommonPrefix solution = new Q0014_LongestCommonPrefix();
         
         // 测试用例2：无公共前缀
         String[] strs2 = {"dog", "racecar", "car"};
@@ -30,7 +30,7 @@ public class LongestCommonPrefix14Test {
 
     @Test
     public void testLongestCommonPrefix_空数组() {
-        LongestCommonPrefix14 solution = new LongestCommonPrefix14();
+        Q0014_LongestCommonPrefix solution = new Q0014_LongestCommonPrefix();
         
         // 测试用例3：空数组
         String[] strs3 = {};
@@ -45,7 +45,7 @@ public class LongestCommonPrefix14Test {
 
     @Test
     public void testLongestCommonPrefix_单元素数组() {
-        LongestCommonPrefix14 solution = new LongestCommonPrefix14();
+        Q0014_LongestCommonPrefix solution = new Q0014_LongestCommonPrefix();
         
         // 测试用例5：单元素数组
         String[] strs5 = {"hello"};
@@ -55,7 +55,7 @@ public class LongestCommonPrefix14Test {
 
     @Test
     public void testLongestCommonPrefix_相同字符串() {
-        LongestCommonPrefix14 solution = new LongestCommonPrefix14();
+        Q0014_LongestCommonPrefix solution = new Q0014_LongestCommonPrefix();
         
         // 测试用例6：所有字符串相同
         String[] strs6 = {"test", "test", "test"};
@@ -65,7 +65,7 @@ public class LongestCommonPrefix14Test {
 
     @Test
     public void testLongestCommonPrefixVertical_纵向扫描() {
-        LongestCommonPrefix14 solution = new LongestCommonPrefix14();
+        Q0014_LongestCommonPrefix solution = new Q0014_LongestCommonPrefix();
         
         // 测试纵向扫描方法
         String[] strs = {"flower", "flow", "flight"};
@@ -75,7 +75,7 @@ public class LongestCommonPrefix14Test {
 
     @Test
     public void testLongestCommonPrefixDivide_分治法() {
-        LongestCommonPrefix14 solution = new LongestCommonPrefix14();
+        Q0014_LongestCommonPrefix solution = new Q0014_LongestCommonPrefix();
         
         // 测试分治法
         String[] strs = {"interspecies", "interstellar", "interstate"};

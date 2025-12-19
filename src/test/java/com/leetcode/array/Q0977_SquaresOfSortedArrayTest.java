@@ -1,16 +1,16 @@
-package com.leetcode.array.q0977;
+package com.leetcode.array;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * SquaresOfSortedArray977 的测试类
+ * Q0977_SquaresOfSortedArray 的测试类
  */
-public class SquaresOfSortedArray977Test {
+public class Q0977_SquaresOfSortedArrayTest {
 
     @Test
     public void testSortedSquares_BasicTestCase() {
-        SquaresOfSortedArray977 solution = new SquaresOfSortedArray977();
+        Q0977_SquaresOfSortedArray solution = new Q0977_SquaresOfSortedArray();
         
         // 测试用例1：包含负数的数组
         int[] nums1 = {-4, -1, 0, 3, 10};
@@ -21,7 +21,7 @@ public class SquaresOfSortedArray977Test {
 
     @Test
     public void testSortedSquares_AllNegativeNumbers() {
-        SquaresOfSortedArray977 solution = new SquaresOfSortedArray977();
+        Q0977_SquaresOfSortedArray solution = new Q0977_SquaresOfSortedArray();
         
         // 测试用例2：全负数数组
         int[] nums2 = {-7, -3, 2, 3, 11};
@@ -32,7 +32,7 @@ public class SquaresOfSortedArray977Test {
 
     @Test
     public void testSortedSquares_AllPositiveNumbers() {
-        SquaresOfSortedArray977 solution = new SquaresOfSortedArray977();
+        Q0977_SquaresOfSortedArray solution = new Q0977_SquaresOfSortedArray();
         
         // 测试用例3：全正数数组
         int[] nums3 = {1, 2, 3, 4, 5};
@@ -43,7 +43,7 @@ public class SquaresOfSortedArray977Test {
 
     @Test
     public void testSortedSquares_SingleElement() {
-        SquaresOfSortedArray977 solution = new SquaresOfSortedArray977();
+        Q0977_SquaresOfSortedArray solution = new Q0977_SquaresOfSortedArray();
         
         // 测试用例4：单元素数组
         int[] nums4 = {-5};
@@ -54,7 +54,7 @@ public class SquaresOfSortedArray977Test {
 
     @Test
     public void testSortedSquares_ArrayWithZero() {
-        SquaresOfSortedArray977 solution = new SquaresOfSortedArray977();
+        Q0977_SquaresOfSortedArray solution = new Q0977_SquaresOfSortedArray();
         
         // 测试用例5：包含零的数组
         int[] nums5 = {-2, 0, 2};

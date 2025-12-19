@@ -1,14 +1,15 @@
-package com.leetcode.linkedlist.q0203;
+package com.leetcode.linkedlist;
 
+import com.leetcode.utils.ListNode;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * 测试类：RemoveLinkedListElements203的测试用例
+ * 测试类：Q0203_RemoveLinkedListElements的测试用例
  */
-public class RemoveLinkedListElements203Test {
+public class Q0203_RemoveLinkedListElementsTest {
 
-    private final RemoveLinkedListElements203 solution = new RemoveLinkedListElements203();
+    private final Q0203_RemoveLinkedListElements solution = new Q0203_RemoveLinkedListElements();
 
     /**
      * 创建链表的辅助方法

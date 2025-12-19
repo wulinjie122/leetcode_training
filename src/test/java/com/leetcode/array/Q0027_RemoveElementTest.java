@@ -1,16 +1,16 @@
-package com.leetcode.array.q0027;
+package com.leetcode.array;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * RemoveElement27 的测试类
+ * Q0027_RemoveElement 的测试类
  */
-public class RemoveElement27Test {
+public class Q0027_RemoveElementTest {
 
     @Test
     public void testRemoveElement_基本测试用例() {
-        RemoveElement27 solution = new RemoveElement27();
+        Q0027_RemoveElement solution = new Q0027_RemoveElement();
         
         // 测试用例1：LeetCode示例1
         int[] nums1 = {3, 2, 2, 3};
@@ -26,7 +26,7 @@ public class RemoveElement27Test {
 
     @Test
     public void testRemoveElement_LeetCode示例2() {
-        RemoveElement27 solution = new RemoveElement27();
+        Q0027_RemoveElement solution = new Q0027_RemoveElement();
         
         // 测试用例2：LeetCode示例2
         int[] nums2 = {0, 1, 2, 2, 3, 0, 4, 2};
@@ -42,7 +42,7 @@ public class RemoveElement27Test {
 
     @Test
     public void testRemoveElement_边界情况() {
-        RemoveElement27 solution = new RemoveElement27();
+        Q0027_RemoveElement solution = new Q0027_RemoveElement();
         
         // 测试用例3：空数组
         int[] nums3 = {};
@@ -68,7 +68,7 @@ public class RemoveElement27Test {
 
     @Test
     public void testRemoveElement_所有元素都等于val() {
-        RemoveElement27 solution = new RemoveElement27();
+        Q0027_RemoveElement solution = new Q0027_RemoveElement();
         
         // 测试用例7：所有元素都等于val
         int[] nums7 = {2, 2, 2, 2};
@@ -80,7 +80,7 @@ public class RemoveElement27Test {
 
     @Test
     public void testRemoveElement_没有元素等于val() {
-        RemoveElement27 solution = new RemoveElement27();
+        Q0027_RemoveElement solution = new Q0027_RemoveElement();
         
         // 测试用例8：没有元素等于val
         int[] nums8 = {1, 2, 3, 4, 5};
@@ -97,7 +97,7 @@ public class RemoveElement27Test {
 
     @Test
     public void testRemoveElement_val在开头和结尾() {
-        RemoveElement27 solution = new RemoveElement27();
+        Q0027_RemoveElement solution = new Q0027_RemoveElement();
         
         // 测试用例9：val在开头和结尾
         int[] nums9 = {1, 2, 3, 1, 4, 1};
@@ -113,7 +113,7 @@ public class RemoveElement27Test {
 
     @Test
     public void testRemoveElementTwoPointers_左右指针法() {
-        RemoveElement27 solution = new RemoveElement27();
+        Q0027_RemoveElement solution = new Q0027_RemoveElement();
         
         // 测试左右指针法
         int[] nums = {3, 2, 2, 3};
@@ -128,7 +128,7 @@ public class RemoveElement27Test {
 
     @Test
     public void testRemoveElementOptimized_优化版() {
-        RemoveElement27 solution = new RemoveElement27();
+        Q0027_RemoveElement solution = new Q0027_RemoveElement();
         
         // 测试优化版
         int[] nums = {0, 1, 2, 2, 3, 0, 4, 2};
@@ -143,7 +143,7 @@ public class RemoveElement27Test {
 
     @Test
     public void testRemoveElementCount_统计法() {
-        RemoveElement27 solution = new RemoveElement27();
+        Q0027_RemoveElement solution = new Q0027_RemoveElement();
         
         // 测试统计法
         int[] nums = {1, 2, 3, 2, 4, 2, 5};
@@ -158,7 +158,7 @@ public class RemoveElement27Test {
 
     @Test
     public void testRemoveElement_性能测试() {
-        RemoveElement27 solution = new RemoveElement27();
+        Q0027_RemoveElement solution = new Q0027_RemoveElement();
         
         // 测试用例10：大数组性能测试
         int[] nums10 = new int[1000];

@@ -1,4 +1,4 @@
-package com.leetcode.array.q0027;
+package com.leetcode.array;
 
 /**
  * LeetCode 27. 移除元素
@@ -31,7 +31,7 @@ package com.leetcode.array.q0027;
  * 时间复杂度：O(n)
  * 空间复杂度：O(1)
  */
-public class RemoveElement27 {
+public class Q0027_RemoveElement {
 
     /**
      * 方法1：快慢指针法（推荐）

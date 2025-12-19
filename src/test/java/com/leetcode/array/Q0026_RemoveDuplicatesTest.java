@@ -1,13 +1,13 @@
-package com.leetcode.array.q0026;
+package com.leetcode.array;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class RemoveDuplicates26Test {
+public class Q0026_RemoveDuplicatesTest {
 
     @Test
     public void testRemoveDuplicates_基本测试用例() {
-        RemoveDuplicates26 solution = new RemoveDuplicates26();
+        Q0026_RemoveDuplicates solution = new Q0026_RemoveDuplicates();
         
         // 测试用例1：包含重复元素的数组
         int[] nums1 = {1, 1, 2, 2, 3, 4, 4, 5};
@@ -25,7 +25,7 @@ public class RemoveDuplicates26Test {
 
     @Test
     public void testRemoveDuplicates_边界情况测试() {
-        RemoveDuplicates26 solution = new RemoveDuplicates26();
+        Q0026_RemoveDuplicates solution = new Q0026_RemoveDuplicates();
         
         // 测试用例2：空数组和单元素数组
         int[] nums2 = {};  // 空数组

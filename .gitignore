@@ -13,14 +13,6 @@ build/
 .gradle/
 gradle.properties
 
-# Maven files
-.m2/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-
 # System files
 .DS_Store
 Thumbs.db
