@@ -47,3 +47,5 @@ _site/
 *.ear
 *.zip
 *.tar.gz
+
+bin/
