@@ -39,7 +39,7 @@ nosetests.xml
 # Documentation
 _site/
 *.html
-*.pdf
+# *.pdf
 
 # Package files
 *.jar
